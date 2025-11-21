@@ -52,21 +52,17 @@ async function HomePage() {
         </div>
         <TextParalax
           title={"After Graduation"}
-          text={`I started out wanting to create video games, which taught me
-                        how to think critically, work creatively, and learn fast. Now, I’m
-                        looking for a more stable and impactful role where I can grow,
-                        adapt quickly, and contribute meaningfully to a team. Feel free to
-                        explore my work — I’m ready to help build something great.`}
+          text={`I pursued game development after university, which taught me how to learn rapidly and solve complex technical problems. 
+            My upcoming projects will focus on the world of embedded systems, driven by my interest in understanding how things work under the hood and in low-level systems programming and optimization.
+            Now I'm seeking embedded systems roles where I can contribute my systematic problem-solving, hands-on experience with bare-metal 
+            programming and communication protocols, and eagerness to build meaningful products.
+            `}
         ></TextParalax>
 
-        <div className="absolute top-100">
+        <div className="absolute md:top-100 top-130">
           <TextParalax
             title={"contact me"}
-            text={`I started out wanting to create video games, which taught me
-                        how to think critically, work creatively, and learn fast. Now, I’m
-                        looking for a more stable and impactful role where I can grow,
-                        adapt quickly, and contribute meaningfully to a team. Feel free to
-                        explore my work — I’m ready to help build something great.`}
+            text={`Feel free to explore my work — I’m ready to help build something great with you!`}
           ></TextParalax>
         </div>
       </div>

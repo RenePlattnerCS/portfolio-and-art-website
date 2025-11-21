@@ -19,20 +19,25 @@ function AboutPage() {
             About me
           </h1>
           <p className="sm:text-sky-100 p-5 leading-7 sm:text-2xl text-md  text-white">
-            Hi, I&apos;m René, after graduating at the University of Tübingen
-            with a Computer Science Bachelor and a passion for building software
-            and . I&apos;m currently looking for exciting opportunities where I
-            can contribute as a developer and grow as part of a creative and
-            driven team.
+            Hi, I&apos;m René. <br></br>I graduated from the University of
+            Tübingen with a Bachelor&apos;s degree in Computer Science and a
+            strong passion for building games and other software. After a year
+            of working on my art projects and game development, I&apos;ve
+            recently shifted my focus toward embedded systems programming.
+            I&apos;m currently exploring new opportunities where I can grow as a
+            developer and collaborate with teams who value precision,
+            creativity, and continuous learning.
           </p>
 
           <p className="sm:text-sky-100 p-5 sm:text-lg text-xs text-white">
-            While my main focus is programming, I also have a strong creative
-            side, which you&apos;ll see reflected in the artwork featured here.
-            I believe that blending logic with creativity leads to better
-            problem-solving and more impactful designs — whether in code or on
-            canvas. Thanks for visiting my portfolio. If you&apos;re interested
-            in working together or just want to connect, feel free to reach out!
+            Alongside my technical work, I keep my creative side alive, which
+            you&apos;ll see reflected in the artwork featured on this site. I
+            believe that combining analytical thinking with creativity leads to
+            clearer ideas, stronger problem-solving, and more thoughtful designs
+            — whether I&apos;m writing embedded C/C++ code or sketching on a
+            canvas. Thanks for taking the time to visit my portfolio. If
+            you&apos;re interested in collaborating, discussing embedded
+            systems, or simply connecting, feel free to reach out
           </p>
         </div>
       </section>
