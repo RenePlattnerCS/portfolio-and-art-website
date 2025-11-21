@@ -17,6 +17,9 @@ import SeleniumIcon from "../icons/SeleniumIcon";
 import SphinxIcon from "../icons/SphinxIcon";
 import TailwindIcon from "../icons/TailwindIcon";
 import TkinterIcon from "../icons/TkinterIcon";
+import CIcon from "../icons/ClanguageIcon";
+import QPIcon from "../icons/qpIcon";
+import STMIcon from "../icons/StmIcon";
 import TSIcon from "../icons/TSicon";
 import UnityIcon from "../icons/UnityIcon";
 
@@ -53,6 +56,18 @@ function MatchIcons({ tech }: { tech: string }) {
       break;
     case "tkinter":
       return <TkinterIcon />;
+      break;
+
+    case "c":
+      return <CIcon />;
+      break;
+
+    case "qpeventframework":
+      return <QPIcon />;
+      break;
+
+    case "stm32":
+      return <STMIcon />;
       break;
 
     case "python":
