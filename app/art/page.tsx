@@ -1,5 +1,5 @@
 import ProductsContainer from "@/components/products/ProductsContainer";
-
+import WarningBanner from "@/components/products/WarningBanner";
 
 async function ArtPage({
   searchParams,
@@ -11,6 +11,7 @@ async function ArtPage({
   const s = search || "";
   return (
     <div className="p-8 mt-12">
+      <WarningBanner></WarningBanner>
       <ProductsContainer layout={l} search={s} />
     </div>
   );
