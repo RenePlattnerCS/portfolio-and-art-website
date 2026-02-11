@@ -49,7 +49,7 @@ async function ProjectsContainer({
       <div className="flex justify-center items-center">
         {totalProjects === 0 ? (
           <h5 className="text-2xl mt-16">
-            Sorry, no products matched your search...
+            Sorry, no projects matched your search...
           </h5>
         ) : layout === "grid" ? (
           <ProjectsGrid projects={projects} />

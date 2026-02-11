@@ -5,7 +5,7 @@ function QPIcon() {
   return (
     <Image
       src={PNG}
-      alt="winauto"
+      alt="qp"
       width={1000}
       height={1000}
       className="max-w-20 object-contain"

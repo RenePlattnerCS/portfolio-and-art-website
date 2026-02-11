@@ -22,6 +22,7 @@ import QPIcon from "../icons/qpIcon";
 import STMIcon from "../icons/StmIcon";
 import TSIcon from "../icons/TSicon";
 import UnityIcon from "../icons/UnityIcon";
+import TiIcon from "../icons/TiIcon";
 
 function TextToIcons({ techs }: { techs: string }) {
   const techArray: string[] = techs.split(",");
@@ -68,6 +69,9 @@ function MatchIcons({ tech }: { tech: string }) {
 
     case "stm32":
       return <STMIcon />;
+      break;
+    case "ti":
+      return <TiIcon />;
       break;
 
     case "python":

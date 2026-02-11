@@ -5,7 +5,7 @@ function CIcon() {
   return (
     <Image
       src={cPNG}
-      alt="winauto"
+      alt="c"
       width={1000}
       height={1000}
       className="max-w-20 object-contain"
