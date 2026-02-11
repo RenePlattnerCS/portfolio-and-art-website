@@ -18,7 +18,7 @@ import SphinxIcon from "../icons/SphinxIcon";
 import TailwindIcon from "../icons/TailwindIcon";
 import TkinterIcon from "../icons/TkinterIcon";
 import CIcon from "../icons/ClanguageIcon";
-import QPIcon from "../icons/qpIcon";
+import QPIcon from "../icons/QPIcon";
 import STMIcon from "../icons/StmIcon";
 import TSIcon from "../icons/TSicon";
 import UnityIcon from "../icons/UnityIcon";
