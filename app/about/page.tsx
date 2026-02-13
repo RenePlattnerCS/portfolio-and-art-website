@@ -1,6 +1,5 @@
 import Image from "next/image";
 import backgroundImg from "@/public/images/AboutImg2.png";
-import SkillsList from "@/components/home/HardSkillsCard";
 
 function AboutPage() {
   return (
