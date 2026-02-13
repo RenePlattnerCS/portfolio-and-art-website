@@ -8,6 +8,7 @@ import HeroCarousel, {
 import { fetchAllProjects, fetchFeaturedProducts } from "@/utils/actions";
 import backgroundImg from "@/public/images/Cali.png";
 import TextParalax from "@/components/paralax/TextParalax";
+import SkillsList from "@/components/home/SkillsList";
 
 async function HomePage() {
   const projects = await fetchAllProjects({ search: "" });
@@ -65,6 +66,10 @@ async function HomePage() {
             text={`Feel free to explore my work — I’m ready to help build something great with you!`}
           ></TextParalax>
         </div>
+      </div>
+
+      <div className="mt-24 px-8">
+        <SkillsList />
       </div>
     </div>
   );
