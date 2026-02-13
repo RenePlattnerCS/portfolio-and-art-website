@@ -3,6 +3,8 @@ import { fetchCartItems } from "@/utils/actions";
 
 import ShopBagIcon from "@/components/icons/ShopBagIcon";
 
+export const dynamic = "force-dynamic";
+
 async function CartButton() {
   const numItemsInCart = await fetchCartItems();
 

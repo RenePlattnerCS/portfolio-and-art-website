@@ -14,6 +14,8 @@ import SignOutLinks from "./SignOutLinks";
 import { SignInButton, SignUpButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { auth } from "@clerk/nextjs/server";
 
+export const dynamic = "force-dynamic";
+
 async function LinksDropdown() {
   const { userId } = await auth();
   const isAdmin = userId === process.env.ADMIN_USER_ID;

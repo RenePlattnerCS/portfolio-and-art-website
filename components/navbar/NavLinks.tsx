@@ -2,6 +2,8 @@ import { signedOutLinks, signedInLinks, NavLink } from "@/utils/links";
 import Link from "next/link";
 import { auth } from "@clerk/nextjs/server";
 
+export const dynamic = "force-dynamic";
+
 async function NavLinks() {
   const { userId } = await auth();
   const isAdmin = userId === process.env.ADMIN_USER_ID;
